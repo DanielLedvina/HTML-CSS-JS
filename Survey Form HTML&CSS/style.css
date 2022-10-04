@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+  }
+  textarea {
+    resize: none;
+    font-size: small;
+  }
+  label {
+    font-size: x-small;
+  }
+  text {
+    size: 10px;
+  }
+  input {
+    font-size: xx-small;
+    height: 13px;
+  }
+  p {
+    margin: 5px;
+    text-align: center;
+  }
+  input[type="radio"] {
+    height: 1em;
+    width: 10px;
+    position: static;
+    margin-right: 0px;
+    vertical-align: -1px;
+  }
+  input[type="checkbox"]{
+    height: 1em;
+    width: 10px;
+    position: static;
+    margin-right: 0px;
+    vertical-align: -1px;
+  }
+  select{
+    font-size: xx-small;
+  }
+  input[type="submit"]{
+    margin: 0px;
+    font-size: 8px;
+  }
+  

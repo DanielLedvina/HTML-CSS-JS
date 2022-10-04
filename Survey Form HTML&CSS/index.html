@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compativle" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Survey</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Employee Interest Survey Form</h1>
+    <main>
+      <section id="question_1">
+        <p>
+          <label for="name">Enter your name:</label>
+          <input type="text" id="name" name="name" />
+        </p>
+      </section>
+      <section id="question_2">
+        <p>
+          <label for="department">Enter your department</label>
+          <input type="text" id="department" name="edepartment" />
+        </p>
+      </section>
+      <section id="about_yourself">
+        <p>
+          <label for="about">Tell us a little about yourself:</label>
+          <textarea name="tabout" id="about" cols="30" rows="5"></textarea>
+        </p>
+      </section>
+      <section id="question_3">
+        <p>
+          <label for="exercise">Do you exercise at home?</label>
+          <input type="radio" id="yes" name="Exercise" value="Yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="Exercise" />
+          <label for="no">No</label>
+        </p>
+      </section>
+      <section id="question_4">
+        <p>
+          <label for="fav_topics"
+            >How do you like to read you favourite topics?
+          </label>
+        </p>
+        <p>
+          <input type="checkbox" id="books" name="Books" />
+          <label for="Books">Books</label>
+          <input type="checkbox" id="online_resources" />
+          <label for="Online_resource">Online resource</label>
+          <input type="checkbox" id="phone_apps" />
+          <label for="Phone_apps">Phone apps</label>
+          <input type="checkbox" id="magazines" />
+          <label for="Magazines">Magazines</label>
+        </p>
+      </section>
+      <section id="question_5">
+        <p>
+          <label for="Movie_genre">What genre of movies do you like?</label>
+          <select id="movies">
+            <option value="Select_movie">Select genre</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Horror">Horror</option>
+            <option value="Biopic">Biopic</option>
+          </select>
+        </p>
+      </section>
+      <section id="submit">
+        <p><input type="submit" value="Submit form" /></p>
+      </section>
+    </main>
+  </body>
+</html>
