@@ -1,2 +1,2 @@
-# HTML-CSS
+# HTML-CSS-JS
 HTML&amp;CSS Projects
