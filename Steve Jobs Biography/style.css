@@ -1,0 +1,51 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+body{
+    font-family: Times, serif;
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+.header{
+    text-align: center
+}
+header > .name {
+    margin-bottom: 1rem;
+  }
+.quote {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+  }
+.quote blockquote {
+    text-align: center;
+    font-size: 3rem;
+  }
+.quote img {
+    max-width: 100%;
+}
+
+.bio {
+    font-size: 50px;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+  }
+.bioText{
+    padding-left: 30rem;
+    padding-right: 30rem;
+    
+}
+hr {
+    width:45%;
+    margin:0 auto;
+}
