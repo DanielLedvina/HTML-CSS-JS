@@ -1,0 +1,82 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: black;
+    color: white;
+    margin: 5em;
+}
+.container{
+  max-width: 50rem;
+  border: 1px solid;
+  margin: auto;
+  padding: 0px 2rem;
+}
+.main-heading {
+  font-size: 4rem;
+  margin: 2rem 0rem 1rem;
+  color: white;
+  text-align: center;
+}
+.form-body {
+  margin: 2rem 0px;
+}
+
+.form-part {
+  display: flex;
+  flex-direction: column;
+}
+.heading-field {
+  margin: 1rem 0px 0.6rem;
+}
+.field-head {
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+.input-div {
+  margin-bottom: 1rem;
+}
+.field-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.form-input {
+  font-size: 1.5rem;
+  padding: 0.5rem 0px;
+  text-indent: 0.5rem;
+  border: none;
+  outline: 2px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  color: #999;
+}
+.form-input:focus {
+  color: #212529;
+  background-color:antiquewhite;
+  border-color:black;
+  outline: 0;
+  box-shadow: 2px 3px #888888
+}.label-text {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  padding: 0.1rem;
+}
+
+button {
+  font-size: 2rem;
+  margin: 0px auto;
+  display: block;
+  color: wite;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid white;
+  background-color: #023de3;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px #0000;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
